@@ -23,6 +23,7 @@ class ltimindtree {
       cy.get(data.error_msg).should('be.visible')
       cy.get(data.email).click()
       cy.get(data.error_msg).should('be.visible')
+      cy.get(data.phone).click()
       cy.get(data.company).click()
       cy.get(data.error_msg).should('be.visible')
     }
@@ -41,11 +42,11 @@ class ltimindtree {
     agreeTC(){
       this.click_submit()
       cy.get(data.error_msg).should('be.visible')
-      cy.get(data.TC).click()
+      cy.get(data.TC).click({force:true})
     }
     select_country(){
       cy.get(data.country)
-      .select('Denmark')
+      .select('Denmark' )
       .should('contain.text','Denmark')
     }
     check_no_of_countries(){
