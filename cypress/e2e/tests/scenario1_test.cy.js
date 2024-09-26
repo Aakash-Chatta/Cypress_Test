@@ -15,16 +15,16 @@ And("User check if error message is shown for mandatory fields", () => {
     lti.verify_mandatory_assertions();
 });
 Then("User enters correct information in all the mandatory fields", () => {
-    lti.enter_info
+    lti.enter_info();
 });
 And("User checks if message field is not mandatory", () => {
     lti.check_non_mandatory();
 });
-And("User checks if country dropdown has 203 countries", () => {
-    
+Then("User checks if country dropdown has 203 countries", () => {
+    lti.check_no_of_countries();
 });
 Then("User selects Denmark from countries dropdown", () => {
-    
+    lti.select_country();
 });
 And("I agree to the Terms and Conditions", () => {
     lti.agreeTC();

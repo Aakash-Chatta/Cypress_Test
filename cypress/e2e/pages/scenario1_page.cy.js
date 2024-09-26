@@ -43,6 +43,14 @@ class ltimindtree {
       cy.get(data.error_msg).should('be.visible')
       cy.get(data.TC).click()
     }
+    select_country(){
+      cy.get(data.country)
+      .select('Denmark')
+      .should('contain.text','Denmark')
+    }
+    check_no_of_countries(){
+      cy.get(data.dropdown_list).should('have.length',203)
+    }
     }
     const lti = new ltimindtree();
     export default lti;

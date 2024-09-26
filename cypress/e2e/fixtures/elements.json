@@ -9,6 +9,7 @@
   "email":"#Email",
   "company":"#Company",
   "phone":"#Phone",
+  "country":"#Country",
   "message":"#MktoPersonNotes",
   "TC":"label[class='mktoLabel mktoHasWidth']#LblMarketing_Consent__c",
   "error_msg":".mktoErrorMsg",
@@ -18,6 +19,7 @@
   "results":".ajax_search_entry ",
   "nordea":"#search-result > div:nth-child(4) > div > div > a",
   "title":"#main > div.container_wrap.container_wrap_first.main_color.sidebar_right > div > main > article > div > div.entry-content > p:nth-child(12) > strong",
-  "url1":"https://www.ltimindtree.com/news-event/lti-posts-robust-3-8-qoq-revenue-growth-in-constant-currency-net-profit-jumps-6-6-qoq/"
+  "url1":"https://www.ltimindtree.com/news-event/lti-posts-robust-3-8-qoq-revenue-growth-in-constant-currency-net-profit-jumps-6-6-qoq/",
+  "dropdown_list":"#Country > option"
 
 }

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1727334439701' stop='1727334503210'>
+    <name>To check different scenarios in cypress using cucumber</name>
+    <title>To check different scenarios in cypress using cucumber</title>
+    <test-cases>
+        <test-case start='1727334439721' status='failed' stop='1727334468849'>
+            <name>It should be possible to submit "Reach us" form</name>
+            <title>It should be possible to submit "Reach us" form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Not enough elements found. Found '31', expected '203'.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Not enough elements found. Found '31', expected '203'.
+                    at ltimindtree.check_no_of_countries (cypress/e2e/pages/scenario1_page.cy.js:52:33)
+                    at Context.eval (cypress/e2e/tests/scenario1_test.cy.js:24:8)
+                    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)
+                    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1727334468969' status='passed' stop='1727334503210'>
+            <name>It should be possible for a user to seach for desired text on the site</name>
+            <title>It should be possible for a user to seach for desired text on the site</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

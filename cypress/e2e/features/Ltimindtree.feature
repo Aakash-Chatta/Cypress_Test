@@ -7,9 +7,9 @@ Feature: To check different scenarios in cypress using cucumber
         And User check if error message is shown for mandatory fields
         And User checks if message field is not mandatory
         Then User enters correct information in all the mandatory fields
-        And User checks if country dropdown has 203 countries
         Then User selects Denmark from countries dropdown
         And I agree to the Terms and Conditions
+        Then User checks if country dropdown has 203 countries
 
     Scenario: It should be possible for a user to seach for desired text on the site
         Given User navigates to the Website
