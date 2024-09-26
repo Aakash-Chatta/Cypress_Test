@@ -10,6 +10,7 @@ Feature: To check different scenarios in cypress using cucumber
         Then User selects Denmark from countries dropdown
         And I agree to the Terms and Conditions
         Then User checks if country dropdown has 203 countries
+    # This Scenario should fail due to last step as there are only 31 countries in the dropdown
 
     Scenario: It should be possible for a user to seach for desired text on the site
         Given User navigates to the Website
