@@ -34,9 +34,9 @@ class ltimindtree {
       cy.get(data.error_msg).should('not.be.visible')
     }
     enter_info(){
-      cy.get(data.first_name).type('Aakash')
-      cy.get(data.last_name).type('chatta')
-      cy.get(data.email).type('aakash.chatta@ltimindtree.com')
+      cy.get(data.first_name).type('Test')
+      cy.get(data.last_name).type('user')
+      cy.get(data.email).type('Testuser@mailnator.com')
       cy.get(data.company).type('LTIMindtree')
     }
     agreeTC(){
